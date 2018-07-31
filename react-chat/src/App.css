@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+    width: 100vw;
+}
+
+#container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+
+}
+#main {
+    grid-column: 2/5;
+    width: 90vw;
+}
+#new-message {
+    position: fixed;
+    bottom: 0;
+    width: 90vw;
+    padding: 5px;
+    margin-left: 0px;
+}
+#new-message .input {
+    width: 100%;
+    margin: 1px;
+}
+#messages-list {
+    padding: 5px 0 0 5px;
+}
+#sidebar {
+    grid-column: 1/2;
+    padding: 5px 0 0 5px;
+    border-right: 1px solid #3f3f3f;
+    height: 100%;
+    width: 10vw;
+}
+.messageBox {
+    margin: 2em .5em;
+    display: inline;
+}
+.messageBox p {
+    margin: 0;
+    display: inline;
+    align-content: right;
+}
+.internalBox{
+    
+}
