@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "react-chat/package.json"
+      ]
+    }
+  }
+}
